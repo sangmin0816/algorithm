@@ -14,5 +14,4 @@ for t in range(T):
          for j in range(i):
             ans[i] = max(ans[i], ans[j])
       
-   print(ans)
    print(f"Case #{t+1}: {N-max(ans)}")
