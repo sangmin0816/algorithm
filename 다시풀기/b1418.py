@@ -11,8 +11,12 @@ for p in primeNumber:
    if p>K:
       break
    for k in range(2, N+1):
-      if(k%p==0):
+      if(k%p==0 and k//p<=p ):
          ans.add(k)
+
+for n in range(2, N+1):
+   for p in primeNumber:
+      if(k%p==0 )
 
 print(ans)
 print(len(ans))
