@@ -2,17 +2,13 @@ import sys
 input = sys.stdin.readline
 
 N = int(input())
-K = int(input())
+stock = list(map(int, input().split(' ')))
 
-# 1은 소수가 아님
-primeNumber = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
-ans = set()
-for p in primeNumber:
-   if p>K:
-      break
-   for k in range(2, N+1):
-      if(k%p==0):
-         ans.add(k)
+ans = []
+for i in range(N-1, 0, -1):
+   ans.append(stock[i] - min(stock[0:i]))
 
-print(ans)
-print(len(ans))
+if ans:
+   print(max(ans))
+else:
+   print(0)

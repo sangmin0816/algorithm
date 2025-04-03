@@ -6,15 +6,19 @@ N = int(input())
 ans = 1
 start = 1
 end = 2
+sum = start+end
 
-for i in range(1, (N//2)+1):
-    sum = i + end
-    while sum < N:
+while(end < (N//2+1)):
+    if(sum<N):
         end += 1
         sum += end
-    if sum == N:
+    elif(sum>N):
+        sum -= start
+        start += 1
+    elif(sum==N):
         ans += 1
-    
-    end = i+2
+        sum -= start
+        start += 1
+        
 
 print(ans)
