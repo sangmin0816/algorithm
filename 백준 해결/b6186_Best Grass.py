@@ -30,7 +30,6 @@ for i in range(R):
          continue
       else:
          dfs(pasture, visited, i, j)
-         print(i, j)
          grass_clumps += 1
 
 print(grass_clumps)
