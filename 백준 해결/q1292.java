@@ -1,4 +1,4 @@
-package d220123;
+
 import java.util.*;
 
 public class q1292 { // 무식한게 정답이다.

@@ -1,4 +1,4 @@
-package d220130;
+
 import java.util.*;
 
 public class q13699 { // https://www.acmicpc.net/problem/13699 점화식

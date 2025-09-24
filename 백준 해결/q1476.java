@@ -1,4 +1,4 @@
-package d220123;
+
 import java.util.*;
 public class q1476 { // 단순한 게 짱이야
     public static void main(String[] args) {

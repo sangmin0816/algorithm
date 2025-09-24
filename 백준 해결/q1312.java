@@ -1,4 +1,3 @@
-package d220123;
 import java.util.*;
 public class q1312 { // 무식한게 답이다.
     public static void main(String[] args) { //https://www.acmicpc.net/problem/1312

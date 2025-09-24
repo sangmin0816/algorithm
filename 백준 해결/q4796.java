@@ -1,4 +1,4 @@
-package d220130;
+
 import java.util.*;
 
 public class q4796 { // https://www.acmicpc.net/problem/4796 캠핑

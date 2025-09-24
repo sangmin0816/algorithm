@@ -1,4 +1,4 @@
-package d220130;
+
 import java.util.*;
 
 public class q12034 { // https://www.acmicpc.net/problem/12034 김인천씨의 식료품가게 (Large) 

@@ -1,4 +1,3 @@
-package d220102;
 import java.util.*;
 
 public class q1343 {

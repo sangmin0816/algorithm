@@ -1,4 +1,4 @@
-package d220116;
+
 import java.util.*;
 public class q14916 {
     public static void main(String[] args) {

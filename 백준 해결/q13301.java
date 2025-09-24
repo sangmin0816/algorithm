@@ -1,4 +1,4 @@
-package d220102;
+
 import java.util.*;
 
 public class q13301 { // 타일 장식물 https://www.acmicpc.net/problem/13301

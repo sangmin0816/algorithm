@@ -1,4 +1,4 @@
-package d1121;
+
 import java.util.*;
 
 public class q19539 { // 수정 필요

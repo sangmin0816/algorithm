@@ -1,4 +1,4 @@
-package d1121;
+
 import java.util.*;
 
 public class q9237 { // 이장님 초대 https://www.acmicpc.net/problem/9237

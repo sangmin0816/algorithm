@@ -1,4 +1,4 @@
-package d220109;
+
 import java.util.*;
 
 public class q2750 {

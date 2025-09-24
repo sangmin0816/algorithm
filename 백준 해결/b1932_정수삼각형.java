@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.*;
 
 // 정수 삼각형
-public class b1932 {
+public class b1932_정수삼각형 {
    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
    public static void main(String[] args) throws IOException {

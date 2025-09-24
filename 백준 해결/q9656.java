@@ -1,4 +1,4 @@
-package d220130;
+
 import java.util.*;
 
 public class q9656 { // https://www.acmicpc.net/problem/9656 돌 게임 2

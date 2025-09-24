@@ -1,4 +1,4 @@
-package d1114;
+
 import java.util.*; 
 
 public class q10162 {

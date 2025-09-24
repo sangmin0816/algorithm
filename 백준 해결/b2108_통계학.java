@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // 통계학
-public class b2108 {
+public class b2108_통계학 {
    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
    public static void main(String[] args) throws IOException {

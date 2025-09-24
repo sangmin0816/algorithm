@@ -1,4 +1,4 @@
-package d220130;
+
 import java.util.*;
 
 public class q6550 { // https://www.acmicpc.net/problem/6550 부분 문자열

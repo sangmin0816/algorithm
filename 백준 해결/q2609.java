@@ -1,4 +1,4 @@
-package d220123;
+
 import java.util.*;
 public class q2609 { // https://www.acmicpc.net/problem/2609
     public static void main(String[] args) {

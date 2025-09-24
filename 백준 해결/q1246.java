@@ -1,4 +1,3 @@
-package d220102;
 import java.util.*;
 
 public class q1246 { //https://www.acmicpc.net/problem/1246 온라인 판매

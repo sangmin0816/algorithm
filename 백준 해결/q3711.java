@@ -1,4 +1,4 @@
-package d220123;
+
 import java.util.*;
 public class q3711 { // while(true)문 쓰기를 두려워하지 말라
     public static void main(String[] args) {
