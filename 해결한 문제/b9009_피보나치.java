@@ -1,32 +1,31 @@
-package 풀다만문제;
 import java.util.*;
 
-public class q9009 {
+public class b9009_피보나치 {
 
     static ArrayList<Long> solution(long num){
-        ArrayList<Long> fivo = new ArrayList<>();
+        ArrayList<Long> fibo = new ArrayList<>();
         ArrayList<Long> answer = new ArrayList<>();
-        fivo.add(0L);
-        fivo.add(1L);
+        fibo.add(0L);
+        fibo.add(1L);
         int index = 2;
         
 		//주어진 수보다 작은 피보니치 리스트를 만든다
         while (true) {
-            long plusNum = fivo.get(index - 1) + fivo.get(index - 2);
+            long plusNum = fibo.get(index - 1) + fibo.get(index - 2);
             if(plusNum > num) break;
-            fivo.add(plusNum);
+            fibo.add(plusNum);
             index++;
         }
 
-        Collections.sort(fivo,Collections.reverseOrder());
+        Collections.sort(fibo,Collections.reverseOrder());
 		
         //주어진 수를 피보나치 리스트에서 큰 값부터 빼가며 0 을 만든다.
         while(num != 0) {
-            for (int i = 0; i < fivo.size(); i++) {
+            for (int i = 0; i < fibo.size(); i++) {
             	//빼줄 때 피보나치의 값이 num보다 큰지 확인
-                if (fivo.get(i) <= num) {
-                    num -= fivo.get(i);
-                    answer.add(fivo.get(i));
+                if (fibo.get(i) <= num) {
+                    num -= fibo.get(i);
+                    answer.add(fibo.get(i));
                 }
             }
         }
