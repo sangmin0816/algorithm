@@ -1,8 +1,8 @@
-package 풀다만문제;
+
 import java.util.*;
 
-public class q12981 { // https://www.acmicpc.net/problem/12981
-    public static void main(String[] args) { // 계속 틀리는데 솔직히 모르겠음
+public class b12981_공포장하기 { // https://www.acmicpc.net/problem/12981
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int R = sc.nextInt();
@@ -17,7 +17,8 @@ public class q12981 { // https://www.acmicpc.net/problem/12981
         while(R>0 && G>0 && B>0) {
             ans++; R--; G--; B--;
         }
-        ans = ans + (R+2)/3 + (G+2)/3 + (B+2)/3;
+        if(R+G+B<3 && R+G+B>0) ans++;
+        else if(R+G+B>=3) ans+=2;
 
         System.out.println(ans);
         sc.close();
